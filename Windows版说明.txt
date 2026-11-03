@@ -1,0 +1,19 @@
+米游签 Windows 绿色便携版
+
+构建：
+1. Windows 10/11 x64 安装 Python 3.11 x64，安装时勾选 Add Python to PATH。
+2. 解压本目录。
+3. 双击「一键构建Windows版.bat」，等待构建结束。
+4. 得到 dist\MiyoQian\（绿色便携文件夹）和 MiyoQian-Windows-x64.zip（可直接分发的压缩包）。
+
+运行：
+1. 解压 MiyoQian-Windows-x64.zip 到任意目录。
+2. 双击 MiyoQian.exe。
+3. 程序会启动本地服务并打开 http://127.0.0.1:5890。
+4. 关闭黑色控制台窗口即可停止服务。
+
+请始终保留整个文件夹，不要只复制 MiyoQian.exe。
+首次启动会生成 config.yaml；账号凭证和日志保存在程序目录附近。
+不要分享含账号凭证的 config.yaml 或 data\credentials.yaml。
+
+本工具包在 Linux 环境中准备，Windows EXE 需在 Windows 上运行构建脚本生成。
